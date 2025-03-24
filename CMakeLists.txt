@@ -35,6 +35,9 @@ target_include_directories(my_foo PRIVATE
     $ENV{TT_METAL_HOME}/tt_metal/api/
     $ENV{TT_METAL_HOME}/tt_metal/hostdevcommon/api
 
+    # tt_stl
+    $ENV{TT_METAL_HOME}/tt_stl
+
     # UMD
     $ENV{TT_METAL_HOME}/tt_metal/third_party/umd/device/api/
 
