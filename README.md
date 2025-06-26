@@ -1,6 +1,6 @@
 # tt-metal Project Template
 
-This is a minimal CMake template to kickstart your tt-metal projects. 
+This is a minimal CMake template to kickstart your tt-metal projects.
 
 It as simple and clean as it can get. If it doesnt work on the latest tt-metal commit, you might have to tinker a bit.
 
@@ -10,7 +10,7 @@ It as simple and clean as it can get. If it doesnt work on the latest tt-metal c
 - [Tenstorrent's ttnn C++ project template](https://github.com/tenstorrent/cpp-ttnn-project-template)
 
 ## Setup
-Before building, make sure you’ve [built tt-metal](https://github.com/tenstorrent/tt-metal/blob/main/INSTALLING.md) and set the `TT_METAL_HOME` environment variable:
+Before building, make sure you’ve [built and installed tt-metal](https://github.com/tenstorrent/tt-metal/blob/main/INSTALLING.md) and set the `TT_METAL_HOME` environment variable:
 
 ```sh
 export TT_METAL_HOME=/path/to/tt-metal
