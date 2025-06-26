@@ -6,6 +6,8 @@ project(
     LANGUAGES CXX
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_executable(my_foo example.cpp)
 
 set_target_properties(my_foo PROPERTIES

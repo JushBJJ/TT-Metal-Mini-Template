@@ -10,28 +10,20 @@ It as simple and clean as it can get. If it doesnt work on the latest tt-metal c
 - [Tenstorrent's ttnn C++ project template](https://github.com/tenstorrent/cpp-ttnn-project-template)
 
 ## Setup
-Before building, make sure you’ve [built and installed tt-metal](https://github.com/tenstorrent/tt-metal/blob/main/INSTALLING.md) and set the `TT_METAL_HOME` environment variable:
+Before building, make sure you’ve [built and installed tt-metal](https://github.com/tenstorrent/tt-metal/blob/main/INSTALLING.md) and set the `TT_METAL_HOME` and `CXX` env variables:
 
 ```sh
 export TT_METAL_HOME=/path/to/tt-metal
+export CXX=/usr/bin/clang++-17 # or g++
 ```
 
-## Building
-Specify your CXX compiler and run CMake:
-
+## Build and Compile
 ```sh
-cmake -S . -B build -DCMAKE_CXX_COMPILER=clang++-17
-```
-
-Then compile:
-
-```sh
+cmake -S . -B build
 make -C build
 ```
 
-## Running Your Project
-Run it like this:
-
+## Running your Project
 ```sh
 ./build/my_foo
 ```
